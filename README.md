@@ -15,7 +15,8 @@ This guide will walk you through the process of setting up Nagios Core on an AWS
 3. Save the security group rules.
 4. While creating a new EC2 instance, select the existing security group.
 5. (Or you alredy created security group just edit it like that)
-    ![sequrity rule](https://github.com/vishal815/Nagios-Core-Setup-Step-by-Step-Guide-Up-to-Login-/assets/83393190/e0151bd5-0ea6-4fd8-a381-1e29bee2191c)
+   ![image](https://github.com/vishal815/Nagios-Core-Setup-Step-by-Step-Guide-Up-to-Login-/assets/83393190/9c85cc03-c5fe-48ed-907b-6246b9d8c347)
+
 
 
 
