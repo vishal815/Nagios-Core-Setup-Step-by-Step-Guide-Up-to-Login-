@@ -1,7 +1,7 @@
 # Nagios-Core-Setup-Step-by-Step-Guide-Up-to-Login-
 Comprehensive guide for setting up Nagios Core on AWS EC2. Follow steps, scripts, and configs to deploy Nagios Core and plugins. Monitoring made easy.
-![download](https://github.com/vishal815/Nagios-Core-Setup-Step-by-Step-Guide-Up-to-Login-/assets/83393190/47759b16-b655-4c5b-8e30-da55cab9c601)
 
+![download](https://github.com/vishal815/Nagios-Core-Setup-Step-by-Step-Guide-Up-to-Login-/assets/83393190/47759b16-b655-4c5b-8e30-da55cab9c601)
 ---
 
 # Setting Up Nagios Core on AWS EC2 Instance
@@ -15,7 +15,11 @@ This guide will walk you through the process of setting up Nagios Core on an AWS
 3. Save the security group rules.
 4. While creating a new EC2 instance, select the existing security group.
 5. (Or you alredy created security group just edit it like that)
-6. ![sequrity rule](https://github.com/vishal815/Nagios-Core-Setup-Step-by-Step-Guide-Up-to-Login-/assets/83393190/e0151bd5-0ea6-4fd8-a381-1e29bee2191c)
+    ![sequrity rule](https://github.com/vishal815/Nagios-Core-Setup-Step-by-Step-Guide-Up-to-Login-/assets/83393190/e0151bd5-0ea6-4fd8-a381-1e29bee2191c)
+
+
+
+
 
 
 ## Step 2: Install and Configure Nagios Core
@@ -191,25 +195,29 @@ This guide will walk you through the process of setting up Nagios Core on an AWS
 
 Open your web browser and access the Nagios web interface using the URL http://ServerIP/nagios (replace `ServerIP` with your server's public IP). For example: http://yourpublicip/nagios
 ![image](https://github.com/vishal815/Nagios-Core-Setup-Step-by-Step-Guide-Up-to-Login-/assets/83393190/ddb70943-df0c-4956-81c9-49ee64f57c91)
+http://ServerIP/nagios
 ![image](https://github.com/vishal815/Nagios-Core-Setup-Step-by-Step-Guide-Up-to-Login-/assets/83393190/bbfb9587-5921-4dc9-b561-fd31910e612a)
-![image](https://github.com/vishal815/Nagios-Core-Setup-Step-by-Step-Guide-Up-to-Login-/assets/83393190/a5b0f657-7696-49f9-9686-dd1b2ad19e1d)
+![image](https://github.com/vishal815/Nagios-Core-Setup-Step-by-Step-Guide-Up-to-Login-/assets/83393190/7f9151ef-959a-4333-b955-9db51dc184c9)
 ![image](https://github.com/vishal815/Nagios-Core-Setup-Step-by-Step-Guide-Up-to-Login-/assets/83393190/cf5f5d6c-3786-4537-a0e2-0eef899b489e)
 
 
 You have successfully set up Nagios Core on an AWS EC2 instance using these commands.
+
+---
 
 
 
 
 ## In case you are fessing login error 
 
-Absolutely, I've added the additional content to the README as you requested:
 
 ```sh
 sudo htpasswd -c /usr/local/nagios/etc/htpasswd.users admin
 ```
 
-If you do not remember your password, you can reset it by running the command above. When you run this command, type your password and press enter (the password you type will not be displayed on the screen). You will then be prompted to retype the password to confirm it.
+👉👉If you do not remember your password, you can reset it by running the command above. When you run this command, type your password and press enter (the password you type will not be displayed on the screen). You will then be prompted to retype the password to confirm it.
+
+
 
 Once you've reset or confirmed your password, follow these steps:
 
@@ -221,6 +229,6 @@ Once you've reset or confirmed your password, follow these steps:
 
 Your Nagios Core setup is now complete and ready to use.
 
-Happy Learning 😃...
+## Happy Learning 😃...
 
 ---
